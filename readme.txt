@@ -6,6 +6,8 @@ Git tracks changes of files.
 
 $ git checkout master 切换分支
 $ git checkout -b feature1 创建并切换到新分支
+$ git branch -d feature1 峰值
+$ git merge --no-ff -m "merge with no-ff" dev 合并分支, 禁用fast forward
 
 
 小结
@@ -25,4 +27,4 @@ Git鼓励大量使用分支：
 删除分支：git branch -d <name>
 
 感觉本站内容不错，读后有收
-
+ 
